@@ -23,5 +23,7 @@ public class Snack1 {
 		} else {
 			System.out.println(number + 1);
 		}
+		
+//		System.out.println(number % 2 == 0 ? number : number + 1);   RISOLVERE COL TERNARIO IN UNA RIGA
 	}
 }
