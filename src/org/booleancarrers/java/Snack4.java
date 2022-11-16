@@ -31,7 +31,5 @@ public class Snack4 {
 			int value = r.nextInt();
 			System.out.println(value);
 		}
-		
-		
 	}
 }

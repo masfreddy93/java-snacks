@@ -20,5 +20,4 @@ public class Snack3 {
 		
 		System.out.println("Somma elementi in posizione dispari: " + sum);
 	}
-	
 }
