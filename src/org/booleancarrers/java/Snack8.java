@@ -31,13 +31,32 @@ public class Snack8 {
 		
 		for(int i = 0; i < arr.length; i++) {
 			
+			
 			int value = r.nextInt(100);
 			arr[i] = value - 50;
-			System.out.print(arr[i] + " ");
+//			System.out.print(arr[i] + " ");
 			
 			
+			if(Math.abs(arr[i]) > Math.abs(maxAbs)) {
+				
+				maxAbs = arr[i];
+//				System.out.println("maxAbs" + maxAbs);
+			}
 			
+			if(Math.abs(arr[i]) < 100) {
+			
+				System.out.print(Math.abs(arr[i]) + " ");
+				System.out.print(Math.abs(minAbs) + " ");
+				minAbs = arr[i];
+//				System.out.println("minAbs" + minAbs);
+			}
+			
+			if(arr[i] % 5 == 0) {
+				
+				sumMultipleOfFive += arr[i];
+			}
 		}
+		
 		
 		System.out.println("\n\nValore assoluto più grande: " + maxAbs);
 		System.out.println("Valore assoluto più piccolo: " + minAbs);
