@@ -13,6 +13,7 @@ public class Snack1 {
 		
 		System.out.print("Inserire numero: ");
 		int number = sc.nextInt();
+		
 		if(number % 2 == 0) {
 			System.out.println(number);
 		}else {
