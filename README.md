@@ -1,8 +1,10 @@
 # java-snacks
 
+
 Snack1
 
 Inserisci un numero, se è pari stampa il numero, se è dispari stampa il numero successivo.
+
 
 Snack2
 
