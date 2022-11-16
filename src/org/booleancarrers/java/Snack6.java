@@ -68,6 +68,5 @@ public class Snack6 {
 		System.out.println("Valore massimo: " + max);
 		System.out.println("Sommatoria: " + sum);
 		System.out.println("Media: " + avg);
-		
 	}
 }
