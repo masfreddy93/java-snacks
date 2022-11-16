@@ -34,16 +34,15 @@ public class Snack8 {
 			
 			int value = r.nextInt(100);
 			arr[i] = value - 50;
-//			System.out.print(arr[i] + " ");
+			System.out.print(arr[i] + " ");
 			
 			
 			if(Math.abs(arr[i]) > Math.abs(maxAbs)) {
 				
 				maxAbs = arr[i];
-//				System.out.println("maxAbs" + maxAbs);
 			}
 			
-			if(Math.abs(arr[i]) < 100) {
+			if(Math.abs(arr[i]) < Math.abs(minAbs)) {
 			
 				System.out.print(Math.abs(arr[i]) + " ");
 				System.out.print(Math.abs(minAbs) + " ");
