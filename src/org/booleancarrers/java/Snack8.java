@@ -25,8 +25,8 @@ public class Snack8 {
 		Random r = new Random(128);
 		int[] arr = new int[10];
 		
-		int maxAbs = arr[0];
-		int minAbs = arr[0];
+		int maxAbs = 0;
+		int minAbs = 50;
 		int sumMultipleOfFive = 0;
 		
 		for(int i = 0; i < arr.length; i++) {
@@ -34,7 +34,7 @@ public class Snack8 {
 			
 			int value = r.nextInt(100);
 			arr[i] = value - 50;
-			System.out.print(arr[i] + " ");
+//			System.out.print(arr[i] + " ");
 			
 			
 			if(Math.abs(arr[i]) > Math.abs(maxAbs)) {
@@ -43,11 +43,8 @@ public class Snack8 {
 			}
 			
 			if(Math.abs(arr[i]) < Math.abs(minAbs)) {
-			
-				System.out.print(Math.abs(arr[i]) + " ");
-				System.out.print(Math.abs(minAbs) + " ");
+
 				minAbs = arr[i];
-//				System.out.println("minAbs" + minAbs);
 			}
 			
 			if(arr[i] % 5 == 0) {
