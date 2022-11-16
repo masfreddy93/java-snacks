@@ -26,7 +26,7 @@ public class Snack8 {
 		int[] arr = new int[10];
 		
 		int maxAbs = 0;
-		int minAbs = 50;
+		int minAbs = Integer.MAX_VALUE;
 		int sumMultipleOfFive = 0;
 		
 		for(int i = 0; i < arr.length; i++) {

@@ -24,7 +24,7 @@ public class Snack6 {
 		
 		for(int i = 0; i < concate.length; i++) {
 			
-			if(i < 10) {				
+			if(i < (concate.length / 2)) {				
 				concate[i] = arr1[i];
 			}else {
 				concate[i] = arr2[i-10];
@@ -41,8 +41,8 @@ public class Snack6 {
 		}
 		
 		
-		int min = concate[0];
-		int max = concate[0];
+		int min = Integer.MAX_VALUE;
+		int max = Integer.MIN_VALUE;
 		float avg = 0;
 		int sum = 0;
 		
